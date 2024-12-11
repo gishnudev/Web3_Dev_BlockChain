@@ -1,0 +1,113 @@
+{
+	"compiler": {
+		"version": "0.8.28+commit.7893614a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getPersonDtls",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_empID",
+						"type": "uint256"
+					}
+				],
+				"name": "setEmployeeDtls",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					}
+				],
+				"name": "setPerson",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Employee.sol": "Employee"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Employee.sol": {
+			"keccak256": "0x606cf97232e67ba14e142998863681d4fd332bd0836fc19e331b9a5e020c4816",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://41f4454f273eb4f627775366d7db2d07356fe2203051c15ab002a933ff41b2ae",
+				"dweb:/ipfs/QmXCzwx5bcxET1GQwJbNcvq9P9JLiVB1Q7gnq8ngh42guT"
+			]
+		},
+		"Inherritance.sol": {
+			"keccak256": "0x74e69b87e3a2588b5cee09d3e1d501d18becc35236ef50c886c17680c72ac9ed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5b1227a37ebbef8a5276f8beec92a58d50c878ce60974358131f983d55834574",
+				"dweb:/ipfs/QmXRmJ8R4g6M4J89tEBU7JuHN3ecQhcrzTedxwLhKae3y3"
+			]
+		}
+	},
+	"version": 1
+}
