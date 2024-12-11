@@ -22,6 +22,16 @@ contract mathFunctions {
 
     }
 
+    function checkSign(int16 num)public pure  returns (string memory ){
+        if(num<0){
+            return  "negative";
+        }else if(num>0){
+            return  "positive";
+        }else{
+            return  "zero";
+        }
+    }
+
     function findLargest(uint16 _number1,uint16 _number2,uint16 _number3)public pure returns (uint16 large) {
         if (_number1>_number2 && _number1>_number3){
             large=_number1;

@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "checkLeapYr",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_year",
+						"type": "uint16"
+					}
+				],
+				"name": "setYear",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "year",
+				"outputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"leapYear.sol": "leapYear"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"leapYear.sol": {
+			"keccak256": "0xd11b19a13b4cc6ac2536d6b886d466c6b1f10b8cb8cf4d32e40ed26032468ad2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://49b954094b59ba491f239b056fe7475d3fbb19e02f218fb988dc6be457fa1ee4",
+				"dweb:/ipfs/QmRM9q9WLqhMWPMR4TEvzAtiirRTWQ3czdWAM3J8kxEFtw"
+			]
+		}
+	},
+	"version": 1
+}

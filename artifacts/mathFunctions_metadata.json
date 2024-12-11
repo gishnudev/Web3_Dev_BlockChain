@@ -8,6 +8,25 @@
 			{
 				"inputs": [
 					{
+						"internalType": "int16",
+						"name": "num",
+						"type": "int16"
+					}
+				],
+				"name": "checkSign",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
 						"internalType": "uint16",
 						"name": "_number1",
 						"type": "uint16"
@@ -105,11 +124,11 @@
 	},
 	"sources": {
 		"mathFunctions.sol": {
-			"keccak256": "0x55421040a753d14c0bcc8f9a5720417cae412e10129f9790c98f8b706f687624",
+			"keccak256": "0x2b20b008b97829f3a59a2cffcaf58398cd979ed36ef871fe4229ba8e2bf368ef",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a269f8d6d8bb4eabb7405f1e9294549f238dfa0ce03f696d580b02c13651224",
-				"dweb:/ipfs/QmVVNpd22NpUp3xLVdvg8bZ5UNpC8BEMbRh2U6cFzAdfLt"
+				"bzz-raw://02247b80d74411b507d7c6ecff82f9f1a97121de37224ea076af2667c54a6681",
+				"dweb:/ipfs/QmTgSiXYNBYs9ukrR7MGPxzU3CXdEobYNegdYjLmcP67SX"
 			]
 		}
 	},
