@@ -1,0 +1,166 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "",
+						"type": "uint16"
+					}
+				],
+				"name": "addStudents",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sem",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dep",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "cgpa",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint128",
+						"name": "rollno",
+						"type": "uint128"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_id",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "sem",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dep",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "cgpa",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint128",
+						"name": "rollno",
+						"type": "uint128"
+					}
+				],
+				"name": "setNameStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint16",
+						"name": "_id",
+						"type": "uint16"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_sem",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_dep",
+						"type": "string"
+					},
+					{
+						"internalType": "uint16",
+						"name": "_cgpa",
+						"type": "uint16"
+					},
+					{
+						"internalType": "uint128",
+						"name": "_rollno",
+						"type": "uint128"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudentMS.sol": "StudentMS"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudentMS.sol": {
+			"keccak256": "0xdfd75e28ce9aaea3486aa5a9df7560cb178d63a4512e8b4127fcf2d74b0309a5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://72f1ab8832733c495745fc1529590b9abae4fdceb5d90aa208488d45b9052226",
+				"dweb:/ipfs/QmeF1d4mQMikQdwcCap2KEddUvZ6gihCxJsrU5gzDfBcq2"
+			]
+		}
+	},
+	"version": 1
+}

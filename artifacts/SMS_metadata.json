@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_sem",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SMS.Department",
+						"name": "_dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_CGPA",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_rollno",
+						"type": "uint32"
+					}
+				],
+				"name": "addStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint8",
+						"name": "_sem",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SMS.Department",
+						"name": "_dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "_CGPA",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_rollno",
+						"type": "uint32"
+					}
+				],
+				"name": "editData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_rollno",
+						"type": "uint32"
+					}
+				],
+				"name": "editName",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "_rollno",
+						"type": "uint32"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint8",
+						"name": "sem",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum SMS.Department",
+						"name": "dept",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint8",
+						"name": "CGPA",
+						"type": "uint8"
+					},
+					{
+						"internalType": "uint32",
+						"name": "rollno",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "staffadvisor",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"StudentMS.sol": "SMS"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"StudentMS.sol": {
+			"keccak256": "0xf1f9435c771ebbc84394fb719bf1677b49f06b53ad2fce46c799f5092cf0ddac",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a19b2bdf74b37be6fb5d4728814f5c8141d40a21c713b63bff99870c515282be",
+				"dweb:/ipfs/QmYa1wcuqBdZ3aHRGu6NvGhrCq5RXApirmr1VXRfqUD6sz"
+			]
+		}
+	},
+	"version": 1
+}
